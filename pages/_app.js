@@ -9,9 +9,7 @@ const App = ({ Component }) => {
             <Head>
                 <title>Profile List!</title>
             </Head>
-            <Header/>
             <Component />
-            <Footer/>
         </>
     );
 };
